@@ -176,7 +176,19 @@ html,body{
     font-weight: bold;
     
 }
-
+.techStack-icons-div{
+    display: flex;
+    justify-content: space-around;
+}
+.ant-design-img , .material-ui-img,.bootstrap-logo-img{
+    height: 45px;
+}
+.next-svg,.react-svg,.html-svg,.css-svg,.js-svg,.redux-svg{
+    font-size: 45px;
+}
+.scss-logo-img{
+    height: 40px;
+}
 @media (max-width:767px){
    
     .hero-custom-col2{
