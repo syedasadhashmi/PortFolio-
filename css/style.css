@@ -1,3 +1,6 @@
+html,body{
+    scroll-behavior: smooth !important;
+}
 .nav-flex-div{
     display: flex;
     justify-content: space-between;
@@ -110,6 +113,70 @@
 .footer-copyright,.footer-list{
     color: white;
 }
+.navOption-right{
+    justify-content: right;
+}
+.hover-link{
+    font-weight: bold !important;
+    font-size: 18px;
+}
+.arrow-icon{
+    position: fixed;
+    right: 20px;
+    border-radius: 25px;
+    background: grey;
+    padding: 15px;
+    bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.arrow-icon:hover{
+    cursor: pointer;
+}
+.brand-title{
+    font-weight: bold;
+}
+.navbar-design{
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+        background-color: #aaa9a45e !important;
+        /* position: fixed;
+        width: 100%;
+        z-index: 1000; */
+}
+
+.h-icons{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 25px;
+    transform: translateY(3px);
+    transition: 0.4s;
+}
+.h-icons:hover{
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+.lt-icons{
+    background-color: #1da1f2;
+    color: white;
+}
+.git-icons{
+    background-color: black;
+        color: white;
+}
+.h-icons-div{
+    margin-bottom: 25px;
+}
+.resume-link{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    
+}
+
 @media (max-width:767px){
    
     .hero-custom-col2{
