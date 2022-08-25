@@ -212,6 +212,12 @@ body {
 .lightening-icon {
   color: orange;
 }
+.e-img {
+  width: 180px;
+}
+.projects-link {
+  color: white;
+}
 @media (max-width: 767px) {
   .hero-custom-col2 {
     text-align: center;
