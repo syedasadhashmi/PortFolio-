@@ -193,10 +193,24 @@ body {
 .redux-svg {
   font-size: 45px;
   text-align: center;
+  transform: translateY(3px);
+  transition: 0.2s;
+}
+.next-svg:hover,
+.react-svg:hover,
+.html-svg:hover,
+.css-svg:hover,
+.js-svg:hover,
+.redux-svg:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: 0.2s;
 }
 .scss-logo-img {
   height: 50px;
   text-align: center;
+  transform: translateY(3px);
+  transition: 0.2s;
 }
 .material-ui,
 .ant-design,
@@ -204,6 +218,16 @@ body {
 .bootstrap {
   align-self: center;
   text-align: center;
+  transform: translateY(3px);
+  transition: 0.2s;
+}
+.material-ui:hover,
+.ant-design:hover,
+.scss:hover,
+.bootstrap:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+  cursor: pointer;
 }
 .tech-stack-subheading {
   color: gray;
