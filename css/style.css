@@ -82,6 +82,7 @@ body {
   border: 1px solid grey;
   transition: 0.8s;
   border-radius: 10px;
+  background-color: white;
 }
 .crd:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 9px 9px 9px;
@@ -241,6 +242,9 @@ body {
 }
 .projects-link {
   color: white;
+}
+.education-section {
+  background-color: #aaa9a45e;
 }
 @media (max-width: 767px) {
   .hero-custom-col2 {
