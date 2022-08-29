@@ -246,6 +246,9 @@ body {
 .education-section {
   background-color: #aaa9a45e;
 }
+.row-center {
+  justify-content: center;
+}
 @media (max-width: 767px) {
   .hero-custom-col2 {
     text-align: center;
